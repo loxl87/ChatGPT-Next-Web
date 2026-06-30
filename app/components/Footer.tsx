@@ -59,7 +59,7 @@ export function useSwitchTheme() {
     );
 
     if (config.theme === "auto") {
-      metaDescriptionDark?.setAttribute("content", "#151515");
+      metaDescriptionDark?.setAttribute("content", "#252525");
       metaDescriptionLight?.setAttribute("content", "#fafafa");
     } else {
       const themeColor = getCSSVar("--themeColor");
